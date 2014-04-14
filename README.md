@@ -5,7 +5,7 @@ Wrapper for SimpleAudioEngine written for Cocos2d-iPhone 2.x
 Using SimpleAudioEngine in cocos2d is awesome but it's difficult to integrate inside out CCActions.
 CCAudioAction easily allow a developer to insert SimpleAudioEngine features inside CCActions ( CCSequence, CCSpawn, ... )
 
-How to use it
+Example of use
 ---------
 ```objective-c
 [image runAction:
