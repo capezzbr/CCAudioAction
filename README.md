@@ -8,15 +8,13 @@ CCAudioAction easily allow a developer to insert SimpleAudioEngine features insi
 How to use it
 ---------
 ```
-...
 [image runAction:
  [CCSequence actions:
-  **[CCAudioPlaySound actionWithSoundName:@"swosh.wav"],**
+  [CCAudioPlaySound actionWithSoundName:@"swosh.wav"], // CCAudioAction
   [CCEaseExponentialOut actionWithAction:[CCMoveBy actionWithDuration:0.4f position:ccp(moveHoriz, 0.0f)]],
   [CCDelayTime actionWithDuration:1.2f],
-  **[CCAudioPlaySound actionWithSoundName:@"swosh.wav"],**
+  [CCAudioPlaySound actionWithSoundName:@"swosh.wav"], // CCAudioAction
   [CCEaseExponentialIn actionWithAction:[CCMoveBy actionWithDuration:0.4f position:ccp(moveHoriz, 0.0f)]],
   [CCCallBlockN actionWithBlock:^(CCNode *n) { [n removeFromParentAndCleanup:YES]; }],
   nil]];
-...
 ```
