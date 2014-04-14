@@ -7,7 +7,7 @@ CCAudioAction easily allow a developer to insert SimpleAudioEngine features insi
 
 How to use it
 ---------
-```
+```objective-c
 [image runAction:
  [CCSequence actions:
   [CCAudioPlaySound actionWithSoundName:@"swosh.wav"], // CCAudioAction
