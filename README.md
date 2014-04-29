@@ -25,3 +25,9 @@ Example of use
   [CCCallBlockN actionWithBlock:^(CCNode *n) { [n removeFromParentAndCleanup:YES]; }],
   nil]];
 ```
+
+License 
+---------
+CCAudioAction is available under the MIT license. See the LICENSE file for more info.
+
+**Follow me on twitter [@capezzbr](http://www.twitter.com/capezzbr)**
